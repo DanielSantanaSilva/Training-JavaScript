@@ -2,13 +2,13 @@
 
 Material de revisão e treinamento em Javascript
 
-- Tipos primitivos
+# Tipos primitivos
 
-number;
-string;
-boolean;
-null;
-undefined;
+-number
+-string
+-boolean
+-null
+-undefined
 
 Referencias MDN de tipos primitivos
 
