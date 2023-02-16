@@ -10,5 +10,3 @@ console.log(segundoNumero === terceiroNumero); //true
 
 const cadastroAtivado = true;
 const cadastroDesativado = false;
-
-
