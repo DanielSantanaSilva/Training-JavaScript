@@ -10,3 +10,50 @@ console.log(segundoNumero === terceiroNumero); //true
 
 const cadastroAtivado = true;
 const cadastroDesativado = false;
+
+// Truthy e falsy
+
+const usuarioLogado = true;
+const contaPaga = false;
+
+// 0 => false;
+// 1 => true;
+
+console.log(0 == false); //true
+console.log(1 == true); //true
+
+console.log("" == false); //true
+
+console.log(0 === false); //false
+console.log(1 === true); //false
+
+let numero = 1;
+let texto = "Amanda";
+let minhaVar = null;
+let minhaVar2;
+
+console.log(typeof numero); //number
+console.log(typeof texto); //string
+console.log(typeof minhaVar); //object
+console.log(typeof minhaVar2); //undefined
+
+// typeof é uma palavra chave que serve para perguntarmos ao JavaScript qual é o tipo de dado que está sendo guardado nessa variável.
+
+// obs: existe tanto o símbolo de “igual a” (==), quanto o de “idêntico a” (===).
+//(===). Ele não só compara os valores dos dois lados da equação, como também verifica se eles são do mesmo tipo.
+
+// Operadores de comparação!
+
+/*
+Operador	Operação	            Exemplo
+>	        Maior que	            (a > b)
+<	        Menor que	            (a < b)
+>=	        Maior ou igual a	    (a >= b)
+<=	        Menor ou igual a	    (a <= b)
+==	        Igual a	                (a == b)
+!=	        Diferente de	        (a !== b)
+===	        Idêntico a	            (a === b)
+!==	        Não idêntico a	        (a !== b)
+&&	        E/and	                (a && b)
+ll	        Ou/or	                (a ll b)
+*/

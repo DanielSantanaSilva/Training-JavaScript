@@ -2,13 +2,13 @@
 
 Material de revisão e treinamento em Javascript
 
-# Tipos primitivos
+- Tipos primitivos
 
--number
--string
--boolean
--null
--undefined
+number;
+string;
+boolean;
+null;
+undefined;
 
 Referencias MDN de tipos primitivos
 
@@ -21,3 +21,10 @@ boolean: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Globa
 null: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/null
 
 undefined: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/undefined
+
+- Variaveis
+
+variable concept;
+var;
+const;
+let;
