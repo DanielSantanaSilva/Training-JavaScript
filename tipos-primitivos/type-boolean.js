@@ -41,19 +41,3 @@ console.log(typeof minhaVar2); //undefined
 
 // obs: existe tanto o símbolo de “igual a” (==), quanto o de “idêntico a” (===).
 //(===). Ele não só compara os valores dos dois lados da equação, como também verifica se eles são do mesmo tipo.
-
-// Operadores de comparação!
-
-/*
-Operador	Operação	            Exemplo
->	        Maior que	            (a > b)
-<	        Menor que	            (a < b)
->=	        Maior ou igual a	    (a >= b)
-<=	        Menor ou igual a	    (a <= b)
-==	        Igual a	                (a == b)
-!=	        Diferente de	        (a !== b)
-===	        Idêntico a	            (a === b)
-!==	        Não idêntico a	        (a !== b)
-&&	        E/and	                (a && b)
-ll	        Ou/or	                (a ll b)
-*/

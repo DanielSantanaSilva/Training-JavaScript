@@ -21,3 +21,28 @@ exibeMensagem(); //Daniel
 //Por outro lado, as variáveis criadas com let só podem ser utilizadas após sua declaração, pois, apesar de serem elevadas, elas não são inicializadas.
 
 //Além das variáveis declaradas com var temos a possibilidade de usar constantes por meio da palavra-chave const ou utilizar variáveis com escopo de bloco através da let.
+
+// Diferenças entre const e let
+
+//Pode parecer estranho quando utilizamos a palavra variável (ou variable, em inglês) mas ao mesmo tempo o JavaScript moderno tem uma opção, a chamada const, que justamente não pode ser variável — não podemos alterar o valor dela.
+
+//Ao declararmos uma variável como const ela deve obrigatoriamente receber um valor:
+
+const taxaComissao = 0.25;
+
+//Ao declararmos let, ao contrário, podemos apenas declarar a variável, sem atribuir nenhum valor. Além disso, o valor inicial pode ser modificado depois:
+
+let minhaLet;
+console.log(minhaLet); //undefined
+
+// atribuindo um valor com TIPO DE DADO STRING
+minhaLet = "eu sou um texto";
+console.log(minhaLet); // "eu sou um texto"
+
+// reatribuindo, desta vez com dado do TIPO NUMBER
+minhaLet = 100;
+console.log(minhaLet); //100
+
+// reatribuindo, desta vez com dado do TIPO BOOLEAN
+minhaLet = true;
+console.log(minhaLet); //true
