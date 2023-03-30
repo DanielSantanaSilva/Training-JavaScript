@@ -42,7 +42,19 @@ Documentação Node.js de console:
 https://nodejs.org/api/console.html
 
 - Operadores e Expressões
-  ternário;
+
+ternário;
 
 // lista completa de expressões e operadores do MDN:
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
+
+- Funções;
+
+Referencias MDN de Funções:
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions
+
+Referencias MDN de Hoisting:
+https://developer.mozilla.org/pt-BR/docs/Glossary/Hoisting
+
+Referencias MDN de Arrow Function:
+https: developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions
